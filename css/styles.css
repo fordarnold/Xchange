@@ -1,0 +1,30 @@
+
+
+/**
+ *	Page Content styles
+ *	---------------------------------------------------------------------
+ *	CSS styles for modifying the content of the main app html layouts
+ *
+ */
+
+#header {
+}
+
+#app-intro {
+	background-color: #cbe;
+}
+
+#agent-info {
+	border-top: 1px dotted #cbe;
+	border-bottom: 1px dotted #cbe;
+}
+
+#main {
+	padding: 10px 0;
+}
+
+#footer #credits {
+	background-color: #bbb;
+	padding: 2px 5px;
+	font-size: 12px;
+}
