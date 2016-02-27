@@ -28,7 +28,7 @@ behind-the-scenes. It is also meant to test the OOP concepts of PHP.
 - Enjoy Xchange :)
 
 ## License
-This application has been released under the [MIT License](http://choosealicense.org). Feel 
+This application has been released under the [MIT License](https://opensource.org/licenses/MIT). Feel 
 free to modify or distribute the code as you wish.
 
 ## Development Principle
@@ -36,16 +36,16 @@ Progressive Enhancement (Start with a Niche)
 
 ## To-Do
 
-[*] Setup base (initial) code  
-[*] Un-Design a single HTML page as MVP*  
+[Done] Setup base (initial) code  
+[Done] Un-Design a single HTML page as MVP*  
 [] Add simple styling to page  
-[*] Bootstrap the application dependencies  
+[Done] Bootstrap the application dependencies  
 [] Build the database schema  
 [] Write the App Models (classes)   
 [] Write the Calculator system*  
 [] Write the Web installer*  
 [] Implement server security strategies for PHP  
-[] Upload to Github @meridianlabz  
+[Done] Upload to Github @fordarnold  
 [] Publish blog post about OOPHP
 
 ---
@@ -53,7 +53,7 @@ Progressive Enhancement (Start with a Niche)
 ## What Have I Learnt About Object-Oriented PHP? 
 
 ### Fundamental Concepts 
-- Object-Oriented Programming uses real-world objects, and their interactions to model 
+- **Object-Oriented Programming** uses real-world objects, and their interactions to model 
 complex software systems.
 - An **Object** in OOP is anything, tangible or intangible, existing in the world.
 - A **Class** is a prototype/model of a real-world Object, as understood by a computer.
