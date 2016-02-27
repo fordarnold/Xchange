@@ -1,9 +1,14 @@
+<?php
+	require "app/bootstrap.php";
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Xchange, The foreign exchange calculator</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
 
 <div id="page-container">
@@ -29,10 +34,6 @@
 
 		<div id="calculator">
 
-		<?php 
-			include_once 'calc/engine.php'; 
-		?>
-
 			<h3>Calculator</h3>
 			<form method="GET" action="index.php">
 				
@@ -42,7 +43,8 @@
 				</select>
 
 				<label>Amount</label>
-				<input type="text" name="amount_from" value="<?php if(is_null($_GET['amount_from'])) echo "0.00"; else echo $_GET['amount_from']; ?>">
+				<input type="text" name="amount_from" 
+					value="0.00">
 
 				<br>
 
@@ -53,7 +55,8 @@
 				</select>
 
 				<label>Amount</label>
-				<input type="text" name="amount_to" value="<?php if(is_null($_GET['amount_from'])) echo "0.00"; else echo $amt_to; ?>" disabled>
+				<input type="text" name="amount_to" 
+					value="0.00" disabled>
 
 				<br>
 
